@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.principal{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.251);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-1{
+    width: 400px;
+    height: 500px;
+    /*background-color: #6343FC;*/
+    background-image: linear-gradient(#6343FC,#3931D6);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    padding: 25px 0 25px 0;
+    position: relative;
+}
+
+.card-2{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 25px 0 25px 30px;
+    margin-left: -35px;
+    /*consultar otra forma de hacerla*/
+}
+
+.card-1 .title{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    /*background-color: #3E33DA;*/
+    background-image: linear-gradient(to bottom,rgba(77, 33, 201, 1)0%,rgba(47, 44, 233, 0.5)70%,rgba(47, 44, 233, 0)100%);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.circle .score{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.title-2{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.description{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 250px;
+    font-size: 15px;
+}
+
+
+
+.title-3{
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 400px;
+    padding-left: 50px;
+}
+
+.content {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.article1{
+    flex-direction: row;
+    display: flex;
+    background-color: #FFDFE0;
+    color: #B83431;
+    border-radius: 10px;
+}
+
+.article2{
+    flex-direction: row;
+    display: flex;
+    background-color: #FBFADB;
+    color: #D0D069;
+    border-radius: 10px;
+}
+
+.article3{
+    flex-direction: row;
+    display: flex;
+    background-color: #D1FFD1;
+    color: #3A7D3C;
+    border-radius: 10px;
+}
+
+.article4 {
+    flex-direction: row;
+    display: flex;
+    background-color: #DFE0FF;
+    color: #3F4297;
+    border-radius: 10px;
+}
+
+.reaccion{
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.puntuacion1{
+    padding: 20px 0 20px 110px ;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.t1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.t2 {
+    color: black;
+}
+
+.t3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.t4 {
+    color: black;
+}
+.t5 {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.t6 {
+    color: black;
+}
+.t7 {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.t8 {
+    color: black;
+}
+
+
+.memory{
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.puntuacion2{
+    padding: 20px 0 20px 110px ;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.verbal{
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.puntuacion3{
+    padding: 20px 0 20px 120px ;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.visual{
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.puntuacion4 {
+    padding: 20px 0 20px 120px ;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.botton{
+    background-color: #313C5A;
+    display: flex;
+    width:  75%;
+    height: 40px;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+

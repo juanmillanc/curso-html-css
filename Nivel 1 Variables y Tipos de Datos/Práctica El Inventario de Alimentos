@@ -1,0 +1,29 @@
+Vas a crear un pequeño sistema de inventario. Imagina que tienes una lista de productos que se van a donar o vender.
+
+Sigue estos pasos:
+
+1. Crea un Array llamado inventario: Este array debe contener dos objetos.
+
+2. Estructura de cada Objeto: Cada objeto dentro del array debe representar un producto con estas propiedades:
+
+-nombre (String)
+
+-cantidad (Number)
+
+-esPerecedero (Boolean)
+
+3. Acceso y Modificación:
+
+-Crea una variable primerProducto y asígnale el nombre del primer objeto del array usando la notación de puntos y corchetes (ej. inventario[0].propiedad).
+
+-Cambia la cantidad del segundo objeto del array a un nuevo número.
+
+4. onversión y Operación:
+
+-Crea una constante llamada precioBase con el valor "2500" (como String).
+
+-Convierte precioBase a número y multiplícalo por la cantidad del primer producto.
+
+5. Salida: Imprime en consola un mensaje usando Template Literals (las comillas invertidas `) que diga:
+
+"El producto [nombre] tiene un stock de [cantidad] y su valor total es [resultado de la multiplicación]".

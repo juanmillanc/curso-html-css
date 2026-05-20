@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #889CA5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+form{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inf-usuario{
+    height: 50px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.email, .name, .address, .message{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.input1, .input2{
+    height: 45px;
+    width: 240px;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    border: none;
+}
+
+.input3{
+    height: 45px;
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    border: none;
+}
+
+textarea{
+    height: 130px;
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    border: none;
+}
+
+
+.buttom{
+    height: 45px;
+    width: 500px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.buttom:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.descrition{
+    display: flex;
+    margin-top: 20px;
+    gap: 4px;
+}
+
+.descrition-2{
+    text-decoration: underline;
+}

@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #f4f0e6;
+    color: #111;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: #0b53b7;
+}
+
+.header-cabeza,
+.nav {
+    width: 100%;
+    padding: 12px;
+    color: white;
+    text-align: center;
+}
+
+.header-cabeza {
+    background-color: #0d47a1;
+}
+
+.nav {
+    background-color: #1e88e5;
+}
+
+.main {
+    width: 100%;
+    background-color: #fe0000;
+    padding: 16px;
+}
+
+.main h1 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #d23c3c;
+    padding: 16px;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.article,
+.section-box,
+.aside {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    text-align: center;
+}
+
+.article {
+    background-color: #8c43f0;
+}
+
+.section-box {
+    background-color: #ffeb3b;
+}
+
+.aside {
+    background-color: #ff9800;
+}
+
+.footer {
+    background-color: #6495ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+/*tablet*/
+@media (min-width: 1024px) {
+    .header {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        flex-direction: row;
+        gap: 30px;
+        padding: 24px;
+        flex: 1;
+    }
+
+    .content-left {
+        width: 60%;
+        gap: 20px;
+    }
+
+    .article,
+    .section-box,
+    .aside{
+        height: 50%;
+    }
+    .aside {
+        width: 40%;
+        min-height: 360px;
+    }
+}
+
+/*desktop*/
+@media (min-width: 1280px) {
+    .header {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        flex-direction: row;
+        gap: 30px;
+        padding: 24px;
+    }
+
+    .main{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .content-left {
+        width: 60%;
+        gap: 20px;
+    }
+
+    .aside {
+        width: 40%;
+        height: 100%;
+    }
+}

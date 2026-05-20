@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #313E51;
+}
+
+.header {
+    height: 150px;
+    width: 100%;
+}
+
+.switch-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #313E51;
+    /* Fondo oscuro */
+    padding: 12px;
+    border-radius: 8px;
+    width: 130px;
+    position: absolute;
+    right:200px;
+    top: 30px;
+}
+
+/* Estilo para las imágenes de los iconos */
+.icon-img {
+    width: 20px;
+    height: 20px;
+}
+
+.pill {
+    width: 42px;
+    height: 22px;
+    background-color: #a855f7;
+    border-radius: 20px;
+    position: relative;
+}
+
+.dot {
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    right: 4px;
+}
+
+.main{
+    height: 500px;
+    width: 900px;
+    position: relative;
+    margin: 150px auto;
+}
+
+.content-left{
+    height: 500px;
+    width: 350px;
+    background-color: #313E51;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    color: aliceblue;
+}
+
+.title1{
+    font-size: 45px;
+    position: relative;
+}
+
+.title2{
+    font-weight: bold;
+    font-size: 45px;
+    position: relative;
+    
+}
+
+.subtitle{
+    font-size: 15px;
+    position: relative;
+    top: 50px;
+}
+
+.content-right{
+    height: 500px;
+    width: 350px;
+    background-color: #313E51;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.html, .css, .javascript, .accessibility{
+    height: 70px;
+    width: 450px;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    background-color: #3C4C67;
+    font-size: 20px;
+}
+
+.html{
+    position: relative;
+    left: 30px;
+}
+
+.sub1{
+    position: relative;
+    left: 30px;
+}
+
+.img1{
+    position: relative;
+    left: 10px;
+    border-radius: 5px;
+}
+
+.css{
+    position: relative;
+    left: 30px;
+}
+
+.sub2{
+    position: relative;
+    left: 30px;
+}
+
+.img2{
+    position: relative;
+    left: 10px;
+    border-radius: 5px;
+}
+
+.javascript{
+    position: relative;
+    left: 30px;
+}
+
+.sub3{
+    position: relative;
+    left: 30px;
+}
+
+.img3{
+    position: relative;
+    left: 10px;
+    border-radius: 5px;
+}
+
+.accessibility{
+    position: relative;
+    left: 30px;
+}
+
+.sub4{
+    position: relative;
+    left: 30px;
+}
+
+.img4{
+    position: relative;
+    left: 10px;
+    border-radius: 5px;
+}
