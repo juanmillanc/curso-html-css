@@ -32,7 +32,7 @@ export default function Card() {
                         {/* reaccion */}
                         <div className="pl-[10] justify-center items-center flex">Reaction</div>
                         {/* puntuacion1 */}
-                        <div className="pt-[20px] pb-[20px] pl-[110px] pr-0 w-full justify-center items-center flex flex-row">
+                        <div className="pt-[20] pb-[20] pl-[110] pr-0 w-full justify-center items-center flex flex-row">
                             {/* t1 */}
                             <div className="font-bold text-xl text-black">80</div>
                             {/* t2 */}
@@ -44,7 +44,7 @@ export default function Card() {
                         {/* memory */}
                         <div className="pl-[10] justify-center items-center flex">Memory</div>
                         {/* puntuacion2 */}
-                        <div className="pt-[20px] pb-[20px] pl-[110px] pr-0 w-full justify-center items-center flex flex-row">
+                        <div className="pt-[20] pb-[20] pl-[110] pr-0 w-full justify-center items-center flex flex-row">
                             {/* t3 */}
                             <div className="font-bold text-xl text-black">80</div>
                             {/* t4 */}
@@ -56,7 +56,7 @@ export default function Card() {
                         {/* verbal */}
                         <div className="pl-[10] justify-center items-center flex">Verbal</div>
                         {/* puntuacion3 */}
-                        <div className="pt-[20px] pb-[20px] pl-[110px] pr-0 w-full justify-center items-center flex flex-row">
+                        <div className="pt-[20] pb-[20] pl-[110] pr-0 w-full justify-center items-center flex flex-row">
                             {/* t5 */}
                             <div className="font-bold text-xl text-black">80</div>
                             {/* t6 */}
@@ -68,7 +68,7 @@ export default function Card() {
                         {/* visual */}
                         <div className="pl-[10] justify-center items-center flex">Visual</div>
                         {/* puntuacion4 */}
-                        <div className="pt-[20px] pb-[20px] pl-[110px] pr-0 w-full justify-center items-center flex flex-row">
+                        <div className="pt-[20] pb-[20] pl-[110] pr-0 w-full justify-center items-center flex flex-row">
                             {/* t7 */}
                             <div className="font-bold text-xl text-black">80</div>
                             {/* t8 */}
