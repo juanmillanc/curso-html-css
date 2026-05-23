@@ -52,7 +52,7 @@ body{
 }
 
 .main{
-    height: 500px;
+    height: 300px;
     width: 900px;
     position: relative;
     margin: 150px auto;
@@ -90,7 +90,7 @@ body{
     width: 350px;
     background-color: #313E51;
     position: absolute;
-    bottom: 0;
+    top: 0;
     right: 50px;
     color: aliceblue;
     display: flex;

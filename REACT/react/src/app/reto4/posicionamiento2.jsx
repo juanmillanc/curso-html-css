@@ -28,7 +28,7 @@ export default function Posicionamiento2() {
                     <div className="text-sm relative top-[50]">Pick o subject to get started.</div>
                 </div>
                 {/* content-right */}
-                <div className="h-500 w-[350] text-white flex flex-col gap-[20] absolute right-0 top-0">
+                <div className="h-100 w-[350] text-white flex flex-col gap-[20] absolute right-0 top-0">
                     {/* html */}
                     <div className="h-[70] w-[450] items-center flex rounded-[10] bg-[#3C4C67] text-xl">
                         <img className="w-[40] relative left-[10] rounded-[5]" src="/html.avif" alt="" />
