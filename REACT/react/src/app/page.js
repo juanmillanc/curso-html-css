@@ -6,9 +6,10 @@ import Card from "./reto2/card";
 import Posicionamiento1 from "./reto3/posicionamiento1";
 import Posicionamiento2 from "./reto4/posicionamiento2";
 import Formulario1 from "./reto5/formulario1";
+import Formulario2 from "./reto6/formulario";
 export default function Home() {
     return (
     // <React/>
-        <Formulario1/>
+        <Formulario2/>
     )
 }
