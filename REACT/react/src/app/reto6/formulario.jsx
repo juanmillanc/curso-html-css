@@ -46,7 +46,7 @@ export default function Formulario2() {
                         <div className="text-[#fb6d35]">Terms of Service</div>
                     </div>
                     {/* button */}
-                    <button className="h-[50] w-[500] text-sm rounded-[30] bg-[#EE560D] text-white font-bold cursor-pointer" type="submit">Submit your request</button>
+                    <button className="h-[50] w-[500] text-sm rounded-[30] bg-[#EE560D] hover:bg-[#c83f00] text-white font-bold cursor-pointer" type="submit">Submit your request</button>
                     <div className="flex gap-[5] relative top-[20] text-sm">
                         <div className="text-1">Images from</div>
                         <div className="underline">Freepik</div>

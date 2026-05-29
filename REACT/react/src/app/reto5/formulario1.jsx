@@ -38,7 +38,7 @@ export default function Formulario1() {
                         <textarea className="h-[130] w-[500] rounded-[10] bg-white flex p-[10]" id="message" placeholder="Enter your message"></textarea>
                     </div>
                     {/* button */}
-                    <button className="h-[45] w-[500] text-base bg-black text-white rounded-[10] cursor-pointer" type="submit">SUBMIT</button>
+                    <button className="h-[45] w-[500] text-base bg-black hover:bg-white hover:text-black text-white rounded-[10] cursor-pointer" type="submit">SUBMIT</button>
                     {/* description */}
                     <div className="flex mt-[20] gap-[4]">
                         {/* description1 */}

@@ -10,6 +10,6 @@ import Formulario2 from "./reto6/formulario";
 export default function Home() {
     return (
     // <React/>
-        <Formulario2/>
+        <Formulario1/>
     )
 }
